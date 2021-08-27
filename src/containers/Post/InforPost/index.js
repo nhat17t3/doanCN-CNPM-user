@@ -75,7 +75,7 @@ function InforPost(props) {
                   </li>
                   <li className="post-infor__item">
                     <i className="fas fa-dollar-sign post-infor__icon" />
-                    Học phí: {postView?.price} VND/buổi
+                    Học phí: {postView?.price} VND/tháng
                   </li>
                   {role == "ROLE_TUTOR" ? (
                     <li className="post-infor__item">

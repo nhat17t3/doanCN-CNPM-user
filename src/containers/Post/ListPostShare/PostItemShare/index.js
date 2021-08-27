@@ -42,7 +42,7 @@ function PostItemShare(props) {
           </div>
           <div className="grid__column-2 post-item__price ">
             {post.price}
-            <div className>VND/buổi</div>
+            <div className>VND/tháng</div>
           </div>
           <div className="grid__column-2 post-item__action">
             <a href className="btn btn--primary  post-item__suggesstion-link">

@@ -9,7 +9,7 @@ export const Paypal = (props)=>{
 
   const {cost , bill} = props;
   const k = Number(cost);
-  const value = Math.floor(k/23000);
+  const value = Math.ceil(k/23000);
     const paypal = useRef();
     useEffect(()=>{
       window.paypal

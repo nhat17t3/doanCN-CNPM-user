@@ -79,7 +79,7 @@ function InforPost1(props) {
                   </li>
                   <li className="post-infor__item">
                     <i className="fas fa-dollar-sign post-infor__icon" />
-                    Học phí: {postView?.price} VND/buổi
+                    Học phí: {postView?.price} VND/tháng
                   </li>
                   {role == "ROLE_TUTOR" ? (
                     <li className="post-infor__item">
@@ -119,7 +119,7 @@ function InforPost1(props) {
                       <span className="post-infor__time ">
                         Ngày hết hạn: {postView?.finishDate}
                       </span>
-                      <span className="post-infor__id"> Mã số lớp: 5336</span>
+                      <span className="post-infor__id"> Mã số lớp: </span>
                     </div>
                   </div>
                   <div className="post-infor__right-bottom">

@@ -1167,7 +1167,7 @@
 }
 .comment-img{
     width: 48px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 50%;
 
 }
